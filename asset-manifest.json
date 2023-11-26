@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/gsmeter/static/css/main.6a50ba50.css",
-    "main.js": "/gsmeter/static/js/main.169965fc.js",
-    "static/js/787.466df198.chunk.js": "/gsmeter/static/js/787.466df198.chunk.js",
-    "static/media/logo.svg": "/gsmeter/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/gsmeter/index.html",
-    "main.6a50ba50.css.map": "/gsmeter/static/css/main.6a50ba50.css.map",
-    "main.169965fc.js.map": "/gsmeter/static/js/main.169965fc.js.map",
-    "787.466df198.chunk.js.map": "/gsmeter/static/js/787.466df198.chunk.js.map"
+    "main.css": "/static/css/main.6a50ba50.css",
+    "main.js": "/static/js/main.7fc42c73.js",
+    "static/js/787.466df198.chunk.js": "/static/js/787.466df198.chunk.js",
+    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/index.html",
+    "main.6a50ba50.css.map": "/static/css/main.6a50ba50.css.map",
+    "main.7fc42c73.js.map": "/static/js/main.7fc42c73.js.map",
+    "787.466df198.chunk.js.map": "/static/js/787.466df198.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6a50ba50.css",
-    "static/js/main.169965fc.js"
+    "static/js/main.7fc42c73.js"
   ]
 }
