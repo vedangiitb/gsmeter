@@ -28,7 +28,7 @@ function ImageContainer({
             <span className="main-text--name">{name}</span>
             <span className="main-text--post">{por}</span>
           </p>
-          <a href={manlink} className="main-text--link">
+          <a href={manlink} className="main-text--link" target="_blank">
             View Manifesto <i className="uil uil-arrow-right"></i>
           </a>
         </div>
@@ -45,13 +45,13 @@ function ImageContainer({
             } else {
               return null;
             }
-                  }}
-                  labelStyle={(index) => ({
-                    fontSize: '.8rem',
-                    fontFamily: 'Quattrocento Sans',
-                    fontWeight: "bold",
-                  })}
-                  labelPosition={75}
+          }}
+          labelStyle={(index) => ({
+            fontSize: ".8rem",
+            fontFamily: "Quattrocento Sans",
+            fontWeight: "bold",
+          })}
+          labelPosition={75}
         />
       </div>
     </div>
