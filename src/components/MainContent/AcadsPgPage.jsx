@@ -6,6 +6,7 @@ import OP from "../Points/OP";
 import Indicator from "../Points/Indicator";
 import Title from "../Title/Title";
 import { SectionHeader, SubHeader, Points } from "./MainContent";
+import Footer from "../Footer/Footer";
 function AcadsPgPage() {
   return (
     <div className="container--main">
@@ -182,6 +183,7 @@ function AcadsPgPage() {
           Carry forward the work of establishing PhD lounge in each department
         </OP>
       </Points>
+      <Footer></Footer>
     </div>
   );
 }

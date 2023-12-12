@@ -29,8 +29,8 @@ function App() {
         <Route path='/hostel' element={<HostelPage/> } />
         <Route path='/technical' element={<TechnicalPage/> } />
         <Route path='/exp' element={<Experiment/> } />
-        </Routes>
-        {/* <Footer/> */}
+      </Routes>
+        {/* <Footer/>  */}
       </Router>
       
     </div>

@@ -6,6 +6,7 @@ import OP from "../Points/OP";
 import Indicator from "../Points/Indicator";
 import { SectionHeader, SubHeader, Points } from "./MainContent";
 import Title from "../Title/Title";
+import Footer from "../Footer/Footer";
 
 function TechnicalPage() {
   return (
@@ -109,14 +110,7 @@ function TechnicalPage() {
       </Points>
       <SectionHeader>TECH TEAMS</SectionHeader>
       <Points>
-        <OP
-          reply={
-         
-            <>
-              Orientations for tech teams have been conducted
-            </>
-          }
-        >
+        <OP reply={<>Orientations for tech teams have been conducted</>}>
           <strong>Tech Team Workshops:</strong> Conduct hands-on sessions based
           on the theme of tech-teams’ keynotes, which further may be leveraged
           for their recruitment process
@@ -141,12 +135,7 @@ function TechnicalPage() {
           digitization for other use cases such as the entry & exit system of
           TL, reading hall, inter-hostel entries, and issuing of keys
         </OP>
-        <OP
-          reply={
-            <>
-              prototype done, deployment maybe by end of semester</>
-          }
-        >
+        <OP reply={<>prototype done, deployment maybe by end of semester</>}>
           <strong>Washing machine:</strong> Push for the digitization of queue
           management system of hostel washing machines
         </OP>
@@ -158,12 +147,7 @@ function TechnicalPage() {
           engage conveners in enjoyable activities while strengthening bonds and
           honing their non-technical skills.
         </RP>
-        <WP
-          reply={
-            <>
-              Club orientations done</>
-          }
-        >
+        <WP reply={<>Club orientations done</>}>
           Conduct a <strong>tech fun weekend</strong> after the orientation to
           let freshers explore various domains of tech
         </WP>
@@ -182,12 +166,7 @@ function TechnicalPage() {
       </Points>
       <SectionHeader>INTER - IIT TECH MEET</SectionHeader>
       <Points>
-        <WP
-          reply={
-            <>
-              Booklet released, closing ceremony planned</>
-          }
-        >
+        <WP reply={<>Booklet released, closing ceremony planned</>}>
           Conduct <strong>Inter-IIT Tech Orientation</strong> to spread
           awareness about what exactly happens, the selection procedure and to
           discuss the type of problem statements
@@ -229,8 +208,7 @@ function TechnicalPage() {
       </Points>
       <SectionHeader>HOSTEL TECH</SectionHeader>
       <Points>
-        <RP
-        >
+        <RP>
           Redesign the <strong>Technical General Championship (GC)</strong>{" "}
           contests to make them more welcoming to newcomers, and ensure club
           collaboration to establish the domain-specific problem statement
@@ -271,8 +249,7 @@ function TechnicalPage() {
           Document step-by-step procedure for the reimbursement of bills to help
           council members
         </RP>
-        <RP
-        >
+        <RP>
           Introduce the concept of <strong>Tech points</strong>, which can be
           redeemed against various tech equipment to incentivize students for
           continuously participating in tech activities
@@ -286,6 +263,7 @@ function TechnicalPage() {
           it into a meeting, discussion, and storage space
         </OP>
       </Points>
+      <Footer></Footer>
     </div>
   );
 }

@@ -6,7 +6,8 @@ import RP from "../Points/RP";
 import OP from "../Points/OP";
 import IP from "../Points/IP";
 import Indicator from "../Points/Indicator";
-import {  SectionHeader, SubHeader, Points } from "./MainContent";
+import { SectionHeader, SubHeader, Points } from "./MainContent";
+import Footer from "../Footer/Footer";
 function AcadsUgPage() {
   return (
     <div className="container--main">
@@ -286,6 +287,7 @@ function AcadsUgPage() {
           for higher studies{" "}
         </RP>
       </Points>
+      <Footer></Footer>
     </div>
   );
 }

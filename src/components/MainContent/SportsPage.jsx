@@ -3,16 +3,15 @@ import ImageContainer from "../ImageContainer/ImageContainer";
 import WP from "../Points/WP";
 import RP from "../Points/RP";
 import OP from "../Points/OP";
-import IP from "../Points/IP"
+import IP from "../Points/IP";
 import Indicator from "../Points/Indicator";
 import Title from "../Title/Title";
 import { SectionHeader, SubHeader, Points } from "./MainContent";
+import Footer from "../Footer/Footer";
 function SportsPage() {
   return (
     <div className="container--main">
-      <Title
-      lastUpdated={"26/01/2023"}
-      >Gssa Meter</Title>
+      <Title lastUpdated={"26/01/2023"}>Gssa Meter</Title>
       <ImageContainer
         name={"Ketan Agrawal"}
         manlink={
@@ -109,11 +108,12 @@ function SportsPage() {
       <Points>
         <WP>
           Expedite <strong> Mega Gymkhana Revamp</strong> by installing iron
-          meshes in Hockey, reinstating Table Tennis court with synthetic mats, done part wise and fostering the
-          restoration process of the stairs
+          meshes in Hockey, reinstating Table Tennis court with synthetic mats,
+          done part wise and fostering the restoration process of the stairs
         </WP>
         <WP>
-        Set up a temporary sport goods outlet at the H12-13-14 premises for purchase and maintenance
+          Set up a temporary sport goods outlet at the H12-13-14 premises for
+          purchase and maintenance
         </WP>
         <WP>
           Install <strong> Regulatory Boards</strong> alongside sporting
@@ -260,6 +260,7 @@ function SportsPage() {
           renovation of Badminton courts
         </WP>
       </Points>
+      <Footer></Footer>
     </div>
   );
 }
