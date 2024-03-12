@@ -4,7 +4,7 @@ import styled from "styled-components";
 import Footer from "../Footer/Footer";
 
 export const SectionHeader = styled.p`
-  font-family: "Oswald", sans-serif;
+  font-family: "Hedvig Letters Serif", serif;
   font-size: 2.8rem;
   font-weight: 600;
   margin: 0;
@@ -12,7 +12,7 @@ export const SectionHeader = styled.p`
 `;
 
 export const SubHeader = styled.p`
-  font-family: "Oswald", sans-serif;
+  font-family: "Hedvig Letters Serif", serif;
   text-transform: uppercase;
   font-size: 2rem;
   margin-bottom: 1rem;
@@ -24,12 +24,12 @@ export const Points = styled.ul`
   font-family: "Quattrocento Sans", sans-serif;
   list-style: none;
   font-size: 2rem;
-  font-weight: 600;
+  font-weight: 500;
 `;
 export const StyledPoints = styled.ul`
   font-family: "Quattrocento Sans", sans-serif;
   font-size: 2rem;
-  font-weight: 600;
+  font-weight: 500;
 `;
 
 function MainContent() {
