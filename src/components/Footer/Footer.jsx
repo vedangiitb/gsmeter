@@ -14,7 +14,7 @@ function Footer() {
                 {/* <use xlink:href="#bootstrap"></use> */}
               </svg>
             </a>
-            <span className="text-muted">© 2023 Company, Inc</span>
+            <span className="text-muted">© 2024 Insight, IIT Bombay</span>
           </div>
 
           <ul className="nav col-md-4 justify-content-end list-unstyled d-flex">

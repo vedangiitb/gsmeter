@@ -7,17 +7,19 @@ import Indicator from "../Points/Indicator";
 import { SectionHeader, SubHeader, Points } from "./MainContent";
 import Title from "../Title/Title";
 import Footer from "../Footer/Footer";
+import SurveyDescript from "./SurveyDescrip";
+import GsSurveyImages from "./GsSurveyImages";
 
 function TechnicalPage() {
   return (
     <div className="container--main">
-      <Title lastUpdated={"02/02/2023"}>GSTA Meter</Title>
+      <Title lastUpdated={"10/03/2024"}>GSTA Meter</Title>
       <ImageContainer
-        name={"Aniket Agrawal"}
+        name={"Prathmesh Shimpi"}
         manlink={
           "https://drive.google.com/drive/folders/1WId3MhG6sZo0XGrM3NG0b79_cglhM340"
         }
-        imgsrc={"/aniket.png"}
+        imgsrc={"/shimpi.png"}
         chartsrc={"/tech.png"}
         por={"General Secretary Technical Affairs"}
         completed={52.94}
@@ -29,241 +31,220 @@ function TechnicalPage() {
       <SectionHeader>TINKERERS’ LABORATORY</SectionHeader>
       <Points>
         <RP>
-          Work on the establishment of the <strong>MakerSpace course</strong> ,
-          an extension of Tinkering Bootcamp, in the academic curriculum by
-          formalizing the course content and logistics
+        TL Funds - Increase the frequency of Alumni pitches to procure more funds for the TL
         </RP>
-        <OP
-          reply={
-            "Budget Proposal has been created. Some equipment has been bought some is left. Plan shown to alums, budget rest procurement and maintenance to be approved by the alums, already discussed with them."
-          }
-        >
-          Facilitate Tinkerers’ laboratory as a <strong>fabrication hub</strong>{" "}
-          for institute-wide technical activities
-        </OP>
+
         <RP>
-          <strong>ChemE TL:</strong> Establish infrastructure by setting up
-          basic machinery, materials, chemical tools & equipment, as well as
-          employing a technician and organizing training sessions
+        TL Inventory - Develop an inventory management system in TL with to maintain a proper database of the inventory available
         </RP>
+        
+        <RP>
+        TL Infrastructure - Push for setting up Project showcasing stand, Trophy stand which defines the glory of the tech culture in the institute
+        </RP>
+
+        <RP>
+        ChemE TL - Encourage interdisciplinary collaboration and innovation in underexplored domains, such as BioX, Chemistry, and Energy, through events and well-stocked labs
+        </RP>
+
       </Points>
-      <SectionHeader>TECHNICAL PROJECTS</SectionHeader>
+      <SectionHeader>TECHNICAL PROJECTS & RESOURCES</SectionHeader>
       <Points>
-        <OP
-          reply={
-            "Portal is ready, currently in the internal testing stage by the council. Planned to release before end of 2022."
-          }
-        >
-          <strong>Project Portal:</strong> Launch a project portal consolidating
-          projects from various channels such as clubs, professors, institute
-          alumni funded projects, and numerous nation-wide competitions
-        </OP>
         <RP>
-          <strong>Technovation:</strong> Integrating design thinking
-          methodologies like empathy-building and problem definition prior to
-          prototyping and testing, involving faculty advisor to supplement
-          evaluation
+        Tech for Social Good - Push for procuring techno-social projects from various industries and departments like CTARA for an overall betterment of society
         </RP>
+
+        <RP
+        reply={
+          "The equipment has been procured and is even available for the student to utilise anytime, whenever required, with permission from the stakeholders, as certain minimum skills need to be met before using these equipments because they are heavy and expensive equipment. We have also got temporary space for setting up these equipments, and it will be shifted to the permanent space (the New DSSE building which is being constructed where the floor plan is already ready and space is allocated for all these labs)"
+        }
+        >
+        Tech Zone - Procure equipment and make them available to all the students where they can experiment with emerging technologies, such as AI, AR/VR, blockchain, and IoT
+        </RP>
+
+        <OP
+        reply={
+          "The website is ready to be hosted (we have done the local hosting), but just due to some Gymkhana server issue, we are not able to make it online. We have tried using multiple technologies for the website, but the issue persists in all of them. Firstly, the website was made using Nest.JS, but then the server issue came up, so the team again tried using “React” for the same website, but the issue still remained the same from the server side. "
+        }
+        >
+        Create an Institute Technical Summer Activities (ITSA) website to streamline the ITSP process and maintain an online repository with ITSP, SoC, and SOS documentation
+        </OP>
+
         <RP>
-          Collaborate with industries to bring sponsored{" "}
-          <strong>industrial problem statements</strong> during summer
+        Reconstruct Technovation with DSSE to provide personalized mentorship, workshops, and resources for student projects fostering a culture of innovation and tech entrepreneurship
         </RP>
-      </Points>
-      <SectionHeader>TECHNICAL RESOURCES</SectionHeader>
-      <SubHeader>InstiWiki:</SubHeader>
-      <Points>
-        <WP
-          reply={
-            "PoC list documented waiting for Gymkhana server to be working. Community Conversations idea in internal brainstorming and ideation stage, will not be able to implement it completely over the current tenure."
-          }
-        >
-          Expanding InstiWiki by adding tutorial links and a PoC list for
-          various domains of expertise, channeling{" "}
-          <strong>community conversations</strong> to make it more transparent
-          and easily accessible
-        </WP>
+
+        <RP>
+        Collaborate with Dean R&D to foster innovation by organizing a large-scale Tech R&D Expo with the involvement of big companies to scale up projects and provide growth opportunities
+        </RP>
+
         <OP
-          reply={
-            "Documentation for PoC and available lab equipments done. Haven't been updated on the website as the InstiWiki server is down due to shifting of the Gymkhana server. When that is done these documentation will be updated asap."
-          }
+        reply={
+          "Emphasized getting more women speakers at council events. We also conducted a WiSE workshop for female students, which was a hands-on rover-building session. A calendar is being compiled for all female opportunities, which will be launched soon"
+        }
         >
-          Document institute’s available lab equipment and resources, as well as{" "}
-          <strong>“how-to-access”</strong> them
+        Revamp the WISE program to empower and promote women in science and engineering by providing talks, mentorship, and resources to create a supportive environment for their success
         </OP>
-        <WP
-          reply={
-            "Work on this hasn't been started yet, just some initial discussion with vendors done. Due to other primary concerns and ideas any significant progress hasn't been made yet on this."
-          }
-        >
-          Encourage the manufacturing of technical products through vendors to
-          be <strong>affiliated with ITC</strong> , thereby reaping various
-          benefits like <strong>discounts and coupons</strong>
-        </WP>
-        <OP
-          reply={
-            "Mentors decided, mentee registration done. Allotment to be released very soon and engagement planned."
-          }
-        >
-          Assign <strong>tech mentors</strong> similar to the concept of ISMP
-          mentors catering to the need of freshers
-        </OP>
+
+        <RP>
+        Organize ITSP Bootcamps to provide a basic understanding of various tech domains to students
+        </RP>
+
+
       </Points>
       <SectionHeader>TECH TEAMS</SectionHeader>
       <Points>
-        <OP reply={<>Orientations for tech teams have been conducted</>}>
-          <strong>Tech Team Workshops:</strong> Conduct hands-on sessions based
-          on the theme of tech-teams’ keynotes, which further may be leveraged
-          for their recruitment process
-        </OP>
-        <OP
-          reply={
-            "Documentation of some processes done, improvements for smoothening the process identified and proposed to the administration. There are still processes for which documentation is still a work in progress"
-          }
-        >
-          Documenting the <strong>administrative processes</strong> involved in
-          tech teams to speed up their work
-        </OP>
-      </Points>
-      <SectionHeader>TECH FOR INSTI</SectionHeader>
-      <Points>
-        <OP
-          reply={
-            "Permissions and basic model sorted and showcased to Deans & Director. Swimming pool model deployed, feedback needs to be incorporated. Ongoing work of up-scalling the hardware work required for digitization."
-          }
-        >
-          <strong>Digitizing Insti:</strong> Extend the idea of mess
-          digitization for other use cases such as the entry & exit system of
-          TL, reading hall, inter-hostel entries, and issuing of keys
-        </OP>
-        <OP reply={<>prototype done, deployment maybe by end of semester</>}>
-          <strong>Washing machine:</strong> Push for the digitization of queue
-          management system of hostel washing machines
-        </OP>
-      </Points>
-      <SectionHeader>CLUBS</SectionHeader>
-      <Points>
         <RP>
-          Organize a <strong>convener camp</strong> with lukkha sessions to
-          engage conveners in enjoyable activities while strengthening bonds and
-          honing their non-technical skills.
+        Organize a mini-expo during tech team orientation for showcasing the work of current tech teams to inspire and encourage freshmen to participate
         </RP>
-        <WP reply={<>Club orientations done</>}>
-          Conduct a <strong>tech fun weekend</strong> after the orientation to
-          let freshers explore various domains of tech
-        </WP>
-        <WP
-          reply={
-            "Could not pursue this because of time constraints and council busy with executing Tech&RnD Expo. Will stick to the older mid term and final work reports to be published by clubs as well."
-          }
+
+        <OP
+        reply={
+          "We have conducted climate change awareness events; the Energy Swaraj was one of them; climate clocks were assembled and will be put up across institute soon. We also have introduced GFI's Alt Protein student chapter in Mumbai to educate the community about the sustainable protein movement. "
+        }
         >
-          Ensure that work reports are published on the website & social media
-          once in every three months
-        </WP>
+        Create a comprehensive database of technical facilities in the institute with details on access, required training, and time slots to ensure efficient utilization by students and tech teams
+        </OP>
+
         <RP>
-          Encourage <strong>collaboration</strong> with institute bodies by
-          including tech elements in their activities
+        Organize closed community sessions and group discussions led by industry leaders to equip tech teams with real-life knowledge and current innovations
         </RP>
       </Points>
-      <SectionHeader>INTER - IIT TECH MEET</SectionHeader>
-      <Points>
-        <WP reply={<>Booklet released, closing ceremony planned</>}>
-          Conduct <strong>Inter-IIT Tech Orientation</strong> to spread
-          awareness about what exactly happens, the selection procedure and to
-          discuss the type of problem statements
-        </WP>
-        <RP>
-          Ensure <strong>quick availability</strong> of resources by maintaining
-          a database of equipment vendors from various domains, ensuring all the
-          inhouse facilities are working and obtaining funds in advance
-        </RP>
-        <OP
-          reply={
-            "Unable to conduct before as dates were not fixed. After release of Problem Statement meetings / brainstorming and sessions by professors/PhD students some conducted before selection. More of these planned for the coming Problem Statements."
-          }
-        >
-          <strong>Inter IIT Tech Camp:</strong> Hold advanced technical training
-          sessions on relevant topics targeted specifically at Inter IIT to
-          precede contingent selection for the Meet
-        </OP>
+      
+      <SectionHeader>TECH FOR INSTI (DEVCOM + INSTIX) & HOSTEL TECH</SectionHeader>
+        <Points>
+      <OP
+      reply={
+        "We have conducted climate change awareness events; the climate clock was one of them; these clocks will be put up at different places on campus."
+      }
+      >
+      Push for Green Campus programs through food waste and energy management projects to promote sustainability in hostels
+      </OP>
+
+      <RP>
+      Introduce Genre Cups to technical GC, with a diverse range of technical genre like coding, robotics, hardware, and award winning hostels of each genre with a genre cup
+      </RP>
+
+      <RP>
+      Create a Hostel GC portal with live dashboard, detailed information for each technical genre, and updated rankings for transparency and competitiveness in InstiApp
+      </RP>
+
+      <RP>
+      Conduct a Hostel Case Study GC with a structured format spanning over a semester, involving problem identification, solution design, and four checkposts to promote out-of-the-box thinking
+      </RP>
+
+      <RP>
+      Add competition-based GCs that encompass various non-core Inter IIT domains, including product management, supply chain, tech entrepreneurship in technical GC
+      </RP>
       </Points>
+
+      <SectionHeader>TECH CLUBS</SectionHeader>
+      <Points>
+      <RP>
+      Follow up on Tech Mentors: An initiative to help freshmen explore and navigate institute technical opportunites and assist them in developing their technical skills
+      </RP>
+
+      <RP>
+      Enhance the AI community with a major focus on NLP, CV, and RL to promote the development of advanced AI technologies and solutions
+      </RP>
+
+      <RP>
+      Reinstate convener camp as Tech Carnival showcasing diverse initiatives through interactive display, demos, workshops, and competitions
+      </RP>
+
+      <RP>
+      Expand the current scope of DIY projects to encompass all the clubs to promote the culture of Do-It-Yourself among students in the institute
+      </RP>
+
+      </Points>
+      
+      <SectionHeader>INTER-IIT TECH MEET</SectionHeader>
+      <Points>
+      <RP
+      reply={
+        "Conducted a Quant Bootcamp and other hackathons (1 week LLM Bootcamp in collaboration with Pathway, Blockchain workshop in collaboration with Filecoin, Regular CP contest on Leetcode, Codeforces and Codechef) were also conducted keeping Inter IIT in mind; there were plans of hardware hackathons which were dropped off because  IIT Madras dropped off those domains"
+      }
+      >
+      Launch Intra IIT competitions based on specific segments of past Inter IIT competitions and organise advance bootcamps to prepare students for the event and promote technical skills.
+      </RP>
+
+      <RP>
+      Revamp a video and blog series called InterIIT Diaries featuring past participants' experiences to raise awareness about Inter IIT and inspire more students to participate
+      </RP>
+      </Points>
+
       <SectionHeader>PG TECH</SectionHeader>
+
       <Points>
-        <RP>
-          Form a <strong>closed community</strong> of PG students who will cater
-          to the interests of PG Tech enthusiasts
-        </RP>
-        <RP>
-          <strong>PG Tech Weekend:</strong> Reconceptualize the events by
-          including hackathons, hands-on activities, and restructure the
-          timeline so that it takes place right after the PGs arrive
-        </RP>
-        <OP
-          reply={
-            "Work in Progress database being built by PG Nom and by the help of PG conveners"
-          }
-        >
-          Maintain a <strong>database</strong> of potential Inter-IIT
-          participants in PG Tech community from various domains
-        </OP>
+      <OP
+      reply={
+        "The website is in the development phase with the backend, which is the major portion of the website being ready; just the UI needs to be finalized. This is getting delayed because the web team is rigorously working on multiple projects at a time. This will be completed by the end of March. "
+      }
+      >
+      Integrate PG Tech Forum with InstiWiki where PG students from different technical disciplines can come together to discuss and exchange ideas on the latest technical advancements and innovations
+      </OP>
+
+
+      <OP
+      reply={
+        "This will be launched in the next 2 weeks as the content is ready but the final compilation and designing part is being done."
+      }
+      >
+      Launch a PG-centric newsletter to promote awareness and participation in technical activities beyond research organized by various tech teams and hobby clubs
+      </OP>
       </Points>
-      <SectionHeader>HOSTEL TECH</SectionHeader>
-      <Points>
-        <RP>
-          Redesign the <strong>Technical General Championship (GC)</strong>{" "}
-          contests to make them more welcoming to newcomers, and ensure club
-          collaboration to establish the domain-specific problem statement
-        </RP>
-        <RP>
-          Incentivize hostels to develop their <strong>Tech-room</strong> by
-          allocating special points in Documentation GC and providing them with
-          the database of basic equipments required in day-to-day tech
-        </RP>
-        <RP>
-          Organize informal tech nights at hostels to hold group talks on
-          current tech topics and to display tech projects
-        </RP>
-      </Points>
-      <SectionHeader>PUBLICITY</SectionHeader>
-      <Points>
-        <RP>
-          Release <strong>ITC’s Fresher’s Introduction Video</strong>{" "}
-          highlighting tech expectations and encourage participation
-        </RP>
-        <RP>
-          Encourage council members to make short engaging videos on club
-          events/projects/geeky topics
-        </RP>
-        <RP>
-          Distribute hoodies/t-shirts for{" "}
-          <strong>Inter-IIT participants</strong> or{" "}
-          <strong>institute technical award</strong> winners
-        </RP>
-      </Points>
+
       <SectionHeader>MISCELLANEOUS</SectionHeader>
+
       <Points>
-        <RP>
-          Introduce <strong> bill status portal</strong> for students to make
-          bill reimbursement claims and track status
-        </RP>
-        <RP>
-          Document step-by-step procedure for the reimbursement of bills to help
-          council members
-        </RP>
-        <RP>
-          Introduce the concept of <strong>Tech points</strong>, which can be
-          redeemed against various tech equipment to incentivize students for
-          continuously participating in tech activities
-        </RP>
-        <OP
-          reply={
-            "Ideation and plan done, implementation ongoing; waiting for estate office to complete the wall repair work post that furniture establishment will be done."
-          }
-        >
-          Establishing infrastructure for <strong>STAB room</strong> to convert
-          it into a meeting, discussion, and storage space
-        </OP>
+
+      <RP>
+      Conduct Open Source events to promote contributions to open source projects like instiApp, gymkhana SSO login to increase the awareness of GSOC
+      </RP>
+
+      <OP
+      reply={"The tender for the digital noticeboards has been released, and locations for setting up these digital notice boards have been finalized in collaboration with the Hostel Affairs Council."}
+      >
+      Implements different ways for publicising events like digital notice boards which help in saving paper wastage and a sustainable approach
+      </OP>
+
+      <RP>
+      Follow up on setting up infrastructure for media team like camera, tripods, laptops and working space to ensure proper publicity of each club
+      </RP>
+
+      <RP>
+      Organise field visits to give industrial and real-life technical exposure to the students
+      </RP>
+
+      <RP>
+      Follow up on building infrastructure of STAB room including cupboards for inventory of clubs, Wi-Fi, mats, and other essential facilities to provide an optimal environment for students
+      </RP>
+
       </Points>
-      <Footer></Footer>
+
+      <SurveyDescript/>
+
+      
+
+      <GsSurveyImages 
+      
+      titles = {[
+        "1. In what capacity were you associated with the tech council?",
+        "2. Are you satisfied with the way the Tech Council functioned during this tenure?",
+        "3. Are you satisfied with the performance of the General Secretary of Technical Affairs (GSTA)?",
+        "4. Do you think the number and quality of the events, sessions and boot camps conducted by ITC this year were up to the mark?",
+        "5. How would you rate the availability of tech infrastructure (equipment/special assistance required) in Tinkerer’s Laboratory?",
+        "6. How would you rate the quality of the available equipment and lab infrastructure in Tinkerer’s Laboratory?",
+        "7. How would you rate the availability of tech infrastructure (equipment/special assistance required) in ChemE TL?",
+        "8. How would you rate the quality of the available equipment and lab infrastructure in ChemE TL?",
+        "9. How would you rate the number of external opportunities/competitions brought in by the council?",
+        "10. How would you rate the support you received from the council when it came to these competitions?",
+        "11. Rate your experiences with the following clubs/communities under the Tech Council"
+    ]}    
+    
+    plots = {Array.from({ length: 11 }, (_, index) => `/GS_Satisfaction_survey/GSTA/${index + 1}_tech.jpg`)} 
+    
+    responses={[78,62,60,51,49,46,40,37,41,37,"35.85 (Average per club)"]}/>
+    
     </div>
   );
 }

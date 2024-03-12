@@ -11,10 +11,19 @@ export const SectionHeader = styled.p`
   display: inline-block;
 `;
 
+export const Bigheader = styled.p`
+  font-family: "Hedvig Letters Serif", serif;
+  font-size: 3.4rem;
+  font-weight: 750;
+  margin: 0;
+  text-align: center; /* Added to center the text */
+`;
+
 export const SubHeader = styled.p`
   font-family: "Hedvig Letters Serif", serif;
   text-transform: uppercase;
-  font-size: 2rem;
+  font-size: 1.8rem;
+  font-weight: 750;
   margin-bottom: 1rem;
   display: inline-block;
   margin-left: 1rem;
