@@ -330,8 +330,6 @@ function HostelPage() {
         responses={["", 122, 121, 120, 124, 123, 121, 121, 122, 122]}
       />
 
-      <Points>The results of the survey are as follows:</Points>
-
       <Footer></Footer>
     </div>
   );
