@@ -305,7 +305,7 @@ function SportsPage() {
           Establishment of sports equipment shop in New SAC
         </OP>
       </Points>
-      <SurveyDescript />
+      <SurveyDescript toShow={0}/>
       <GsSurveyImages
         titles={[
           "1.	In what capacity were you associated with the sports council?",
@@ -324,7 +324,7 @@ function SportsPage() {
           { length: 11 },
           (_, index) => `/GS_Satisfaction_survey/GSSA/${index + 1}_sa.jpg`
         )}
-        responses={[117, 102, 100, 100, 100, 98, 88, 91, 88, 11, 735]}
+        responses={[117, 102, 100, 100, 100, 98, 88, 91, 88, 11, "52.5(Average respondants Per Sport)"]}
       />
       <Footer></Footer>
     </div>

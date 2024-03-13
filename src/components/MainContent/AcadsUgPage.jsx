@@ -362,7 +362,7 @@ function AcadsUgPage() {
         </RP>
       </Points>
 
-      <SurveyDescript />
+      <SurveyDescript toShow={2}/>
       <GsSurveyImages
         titles={[
           "1. In what capacity were you associated with the Undergraduate Academic Council (UGAC)?",
@@ -386,7 +386,7 @@ function AcadsUgPage() {
           (_, index) => `/GS_Satisfaction_survey/GSAAUG/${index + 1}_ug.png`
         )}
         responses={[
-          138, 123, 122, 106, 108, 104, 105, 104, 107, 107, 108, 107, 113, 93,
+          138, 123, 122, "105.83 (Average responses per body)", 108, 104, 105, 104, 107, 107, 108, 107, 113, 93,
           84,
         ]}
       />

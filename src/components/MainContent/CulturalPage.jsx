@@ -27,7 +27,8 @@ function CulturalPage() {
         unclear={0}
       />
       <Indicator />
-      <SectionHeader>EXPOSURE | Elevating Culturals</SectionHeader>
+      <SectionHeader>EXPOSURE | </SectionHeader>
+      <SubHeader>Elevating Culturals</SubHeader>
       <Points>
         <WP
           reply={
@@ -70,7 +71,8 @@ function CulturalPage() {
           competitions throughout the year & Inter IIT Cultural Meet
         </RP>
       </Points>
-      <SectionHeader>SOCIAL IMPACT | Cult-For-A-Cause</SectionHeader>
+      <SectionHeader>SOCIAL IMPACT | </SectionHeader>
+      <SubHeader>Cult-For-A-Cause</SubHeader>
       <Points>
         <OP
           reply={
@@ -101,7 +103,8 @@ function CulturalPage() {
         </WP>
       </Points>
 
-      <SectionHeader>HOSTEL CULTURE | Reviving Culturals</SectionHeader>
+      <SectionHeader>HOSTEL CULTURE | </SectionHeader>
+      <SubHeader>Reviving Culturals</SubHeader>
       <Points>
         <RP
           reply={
@@ -130,7 +133,8 @@ function CulturalPage() {
           hostel penetration
         </WP>
       </Points>
-      <SectionHeader>LEARNING | Enriching Culturals</SectionHeader>
+      <SectionHeader>LEARNING | </SectionHeader>
+      <SubHeader>Enriching Culturals</SubHeader>
       <Points>
         <WP reply={"This did not happen"}>
           Propose introduction of courses like Western Vocals and Music
@@ -179,7 +183,8 @@ function CulturalPage() {
           propagation of knowledge from various niches
         </RP>
       </Points>
-      <SectionHeader>PG CULT | Expanding Culturals</SectionHeader>
+      <SectionHeader>PG CULT | </SectionHeader>
+      <SubHeader>Expanding Culturals</SubHeader>
       <Points>
         <WP reply={"There were attempts but it did not materialise"}>
           PG Sandhya: Host a PG open mic in the H12/13/14 cone area to engage a
@@ -195,8 +200,9 @@ function CulturalPage() {
         </OP>
       </Points>
       <SectionHeader>
-        Web & Publications | Broadcasting Culturals{" "}
+        Web & Publications | 
       </SectionHeader>
+      <SubHeader>Broadcasting Culturals</SubHeader>
       <Points>
         <RP
           reply={
@@ -221,7 +227,8 @@ function CulturalPage() {
           better outreach for summer programs such as CultConnect
         </WP>
       </Points>
-      <SectionHeader>"INFRASTRUCTURE | Equipping Culturals "</SectionHeader>
+      <SectionHeader>INFRASTRUCTURE | </SectionHeader>
+      <SubHeader>Equipping Culturals</SubHeader>
       <Points>
         <OP
           reply={
@@ -255,7 +262,8 @@ function CulturalPage() {
           sewing machines & cupboards
         </RP>
       </Points>
-      <SectionHeader>FOLLOW-UPS | Continuing Culturals</SectionHeader>
+      <SectionHeader>FOLLOW-UPS | </SectionHeader>
+      <SubHeader>Continuing Culturals</SubHeader>
       <Points>
         <OP
           reply={
@@ -314,7 +322,8 @@ function CulturalPage() {
           for the missed opportunity
         </RP>
       </Points>
-      <SectionHeader>MANAGEMENT | Augmenting Culturals</SectionHeader>
+      <SectionHeader>MANAGEMENT | </SectionHeader>
+      <SubHeader>Augmenting Culturals</SubHeader>
       <Points>
         <OP
           reply={
@@ -330,7 +339,7 @@ function CulturalPage() {
           transparency within the council
         </WP>
       </Points>
-      <SurveyDescript />
+      <SurveyDescript toShow={0}/>
       <GsSurveyImages
         titles={[
           "1.	In what capacity were you associated with the Institute Cultural Council?",
@@ -348,7 +357,7 @@ function CulturalPage() {
           { length: 10 },
           (_, index) => `/GS_Satisfaction_survey/GSCA/${index + 1}_ca.png`
         )}
-        responses={[74, 54, 56, 53, 54, 49, 51, 17, 47, 472]}
+        responses={[74, 54, 56, 53, 54, 49, 51, 17, 47, "33.7 (Average responses per club)"]}
       />
 
       <Footer></Footer>

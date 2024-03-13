@@ -11,7 +11,7 @@ function SurveyDescript({toShow}){
                 <Points>78.95 Male, 15.2% Female, 0.58% Non-Binary, 5.26% Prefer not to say</Points>
                 <Points>84.12% UG, 15.88% PG</Points>
                 <Points>Note: Only PG responses have been taken into account for the analysis for GSAA (PG).</Points>
-
+                <br></br>
             </div>
         )
     }
@@ -24,7 +24,7 @@ function SurveyDescript({toShow}){
                 <Points>78.95 Male, 15.2% Female, 0.58% Non-Binary, 5.26% Prefer not to say</Points>
                 <Points>84.12% UG, 15.88% PG</Points>
                 <Points>Note: Only PG responses have been taken into account for the analysis for GSAA (UG).</Points>
-
+                <br></br>
             </div>
         )
     }
@@ -36,10 +36,6 @@ function SurveyDescript({toShow}){
                 <Points>78.95 Male, 15.2% Female, 0.58% Non-Binary, 5.26% Prefer not to say</Points>
                 <Points>84.12% UG, 15.88% PG</Points>
                 <br></br>
-
-    
-                
-                
             </div>
         )
     }

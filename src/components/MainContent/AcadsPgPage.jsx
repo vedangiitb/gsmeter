@@ -254,7 +254,6 @@ function AcadsPgPage() {
         Note: Only PG responses have been taken into account for the
         analysis for GSAA (PG).
       </Points>
-      <br></br>
 
       <GsSurveyImages
         titles={[
