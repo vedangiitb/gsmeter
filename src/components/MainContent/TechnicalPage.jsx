@@ -13,11 +13,11 @@ import GsSurveyImages from "./GsSurveyImages";
 function TechnicalPage() {
   return (
     <div className="container--main">
-      <Title lastUpdated={"10/03/2024"}>GSTA Meter</Title>
+      <Title lastUpdated={"13/03/2024"}>GSTA Meter</Title>
       <ImageContainer
         name={"Prathmesh Shimpi"}
         manlink={
-          "https://drive.google.com/drive/folders/1WId3MhG6sZo0XGrM3NG0b79_cglhM340"
+          "https://drive.google.com/file/d/1PIzj1a229YV9kdBkM6J0IGAnJsIA9JK7/view?"
         }
         imgsrc={"/shimpi.png"}
         chartsrc={"/tech.png"}

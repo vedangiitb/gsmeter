@@ -19,7 +19,7 @@ function Footer() {
 
           <ul className="nav col-md-4 justify-content-end list-unstyled d-flex">
             <li className="ms-3">
-              <a className="text-muted" href="#">
+              <a className="text-muted" href="https://twitter.com/insightiitb" target="_blank">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="16"
@@ -33,7 +33,7 @@ function Footer() {
               </a>
             </li>
             <li className="ms-3">
-              <a className="text-muted" href="#">
+              <a className="text-muted" href="https://www.instagram.com/insight.iitb/" target="_blank">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="16"
@@ -47,7 +47,7 @@ function Footer() {
               </a>
             </li>
             <li className="ms-3">
-              <a className="text-muted" href="#">
+              <a className="text-muted" href="https://www.facebook.com/insight.iitbombay/" target="_blank">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="16"

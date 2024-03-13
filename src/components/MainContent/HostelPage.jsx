@@ -13,7 +13,7 @@ import GsSurveyImages from "./GsSurveyImages";
 function HostelPage() {
   return (
     <div className="container--main">
-      <Title lastUpdated={"11/03/2024"}>Gsha Meter</Title>
+      <Title lastUpdated={"13/03/2024"}>Gsha Meter</Title>
       <ImageContainer
         name={"Pratham Kapure"}
         manlink={

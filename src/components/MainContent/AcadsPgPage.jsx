@@ -13,7 +13,7 @@ import GsSurveyImages from "./GsSurveyImages";
 function AcadsPgPage() {
   return (
     <div className="container--main">
-      <Title lastUpdated={"20/02/2024"}>Gsaa Meter</Title>
+      <Title lastUpdated={"13/03/2024"}>Gsaa Meter</Title>
       <ImageContainer
         name={"Anmol"}
         manlink={
