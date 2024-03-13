@@ -22,9 +22,9 @@ function TechnicalPage() {
         imgsrc={"/shimpi.png"}
         chartsrc={"/tech.png"}
         por={"General Secretary Technical Affairs"}
-        completed={52.94}
-        notstarted={14.71}
-        ongoing={32.35}
+        completed={77.4}
+        notstarted={0.0}
+        ongoing={22.6}
         unclear={0}
       />
       <Indicator />
@@ -274,7 +274,7 @@ function TechnicalPage() {
         </RP>
       </Points>
 
-      <SurveyDescript />
+      <SurveyDescript toShow={0} />
 
       <GsSurveyImages
         titles={[
