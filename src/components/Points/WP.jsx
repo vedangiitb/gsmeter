@@ -14,7 +14,7 @@ function WP(props) {
         </div>
       </div>
       <div className="accordian--reply" style={{ display: state && "block" }}>
-        {props.reply ? props.reply : "No reply given yet"}
+        {props.reply ? props.reply : "Not Done"}
       </div>
     </div>
   );

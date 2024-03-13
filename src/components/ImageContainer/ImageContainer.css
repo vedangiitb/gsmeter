@@ -35,9 +35,8 @@
 }
 .main-text--post{
     color: #000;
-    font-size: 2rem;
-    /* font-family: 'oswald',sans-serif; */
-    font-family: 'Hedvig Letters Serif', serif;
+    font-size: 2.2rem;
+    font-family:  serif;
 }
 .main-text--link{
     color: #000;

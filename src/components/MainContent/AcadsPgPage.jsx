@@ -22,9 +22,9 @@ function AcadsPgPage() {
         imgsrc={"/anmol_gsaa.png"}
         por={"General Secretary Academic Affairs PG"}
         chartsrc={""}
-        completed={26.3}
-        notstarted={31.6}
-        ongoing={42.1}
+        completed={26.30}
+        notstarted={31.60}
+        ongoing={42.10}
         unclear={0}
       />
       <Indicator />
@@ -200,12 +200,16 @@ function AcadsPgPage() {
         
       </Points>
 
-      <SurveyDescript/>
+      <SurveyDescript toShow = {0} />
+      <Points>
+      Note: Only PG responses have been taken into account for the analysis for GSAA (PG).
+      </Points>
+      <br></br>
 
       <GsSurveyImages 
       
       titles = { [
-        "1. In what capacity were you associated with the Post Graduate Academic Council (PGAC)? (pie chart)",
+        "1. In what capacity were you associated with the Post Graduate Academic Council (PGAC)?",
         "2. Are you satisfied with the way the PG Academic Council (PGAC) functioned during this tenure?",
         "3. Are you satisfied with the performance of the GSAA-PG?",
         "4. Do you feel that PGAC was receptive to your concerns and relayed them to the administration effectively?",

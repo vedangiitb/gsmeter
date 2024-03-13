@@ -22,9 +22,9 @@ function TechnicalPage() {
         imgsrc={"/shimpi.png"}
         chartsrc={"/tech.png"}
         por={"General Secretary Technical Affairs"}
-        completed={52.94}
-        notstarted={14.71}
-        ongoing={32.35}
+        completed={77.40}
+        notstarted={0.00}
+        ongoing={22.60}
         unclear={0}
       />
       <Indicator />
@@ -221,7 +221,7 @@ function TechnicalPage() {
 
       </Points>
 
-      <SurveyDescript/>
+      <SurveyDescript toShow = {0} />
 
       
 
@@ -243,7 +243,8 @@ function TechnicalPage() {
     
     plots = {Array.from({ length: 11 }, (_, index) => `/GS_Satisfaction_survey/GSTA/${index + 1}_tech.jpg`)} 
     
-    responses={[78,62,60,51,49,46,40,37,41,37,"35.85 (Average per club)"]}/>
+    responses={[78,62,60,51,49,46,40,37,41,37,"35.85 (Average per club)"]
+    }/>
     
     </div>
   );

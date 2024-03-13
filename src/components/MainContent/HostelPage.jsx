@@ -161,7 +161,11 @@ function HostelPage() {
         Push for a 'Net Zero Campus': Usage of Renewable Energy for various purposes in the Hostels and Transport Facilities 
         </WP>
 
-        <WP>
+        <WP
+        reply = {
+          "There are too many stakeholders to bring together."
+        }
+        >
         Follow up on formation of the Umbrella Committee to unite sustainability stakeholders
         </WP>
 
@@ -258,7 +262,7 @@ function HostelPage() {
         </RP>
       </Points>
 
-      <SurveyDescript/>
+      <SurveyDescript toShow = {0} />
 
       <GsSurveyImages 
       
@@ -278,6 +282,8 @@ function HostelPage() {
     plots = {Array.from({ length: 10 }, (_, index) => `/GS_Satisfaction_survey/GSHA/${index + 1}_ha.png`)} 
     
     responses={["",122,121,120,124,123,121,121,122,122]}/>
+
+<Points>The results of the survey are as follows:</Points>
 
       
       <Footer></Footer>
