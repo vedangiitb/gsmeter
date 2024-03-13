@@ -8,285 +8,389 @@ import IP from "../Points/IP";
 import Indicator from "../Points/Indicator";
 import { SectionHeader, SubHeader, Points } from "./MainContent";
 import Footer from "../Footer/Footer";
+import SurveyDescript from "./SurveyDescrip";
+import GsSurveyImages from "./GsSurveyImages";
+
 function AcadsUgPage() {
   return (
     <div className="container--main">
-      <Title lastUpdated={"20/01/2023"}>Gsaa Meter</Title>
+      <Title lastUpdated={"13/03/2024"}>Gsaa Meter</Title>
       <ImageContainer
-        name={"Ayush Ambadas Dahale"}
+        name={"Dheer Bhanushali"}
         manlink={
-          "https://drive.google.com/file/d/1tr7XhEAyIDQvOYcxb-bxrhfzscsNzsl8/view?usp=sharing"
+          "https://drive.google.com/file/d/19B50wyyGE43Gy_1WxlDvLft3l3HD9qgv/view"
         }
         chartsrc={"/ACADug.png"}
-        imgsrc={"/aayush.png"}
+        imgsrc={"/gsaa_dheer.png"}
         por={"General Secretary Academic Affairs UG"}
-        completed={22.85}
-        notstarted={28.58}
-        ongoing={48.57}
+        completed={41.7}
+        notstarted={30.6}
+        ongoing={27.8}
         unclear={0}
       />
       <Indicator />
       <SectionHeader>Key Initiatives</SectionHeader>
       <Points>
+        <OP
+          reply={
+            "UGAC is consulting the professors in IDC to design the program (one of the professors is already running a course on design thinking for second year students) - currently in initial stages."
+          }
+        >
+          Pioneer an immersive cohort-based "Career Design Program" to enable
+          students to evaluate different career paths and make choices towards
+          building an intentional, well-suited vocation
+        </OP>
+        <OP
+          reply={
+            "A handbook is under works. Metrics are still being decided upon. We can only push for sensitization for FacAds, but we can't mandate or penalise them."
+          }
+        >
+          Bolster the Faculty Advisor Program for constructive interaction
+          between faculty and students: Push for the creation of a FacAd
+          handbook, establish metrics for FacAds to check in on students'
+          progress and assist them in recovering from performance drops in a
+          semester; Push for sensitization on student issues for FacAds with SWC
+          and student representatives
+        </OP>
         <RP>
-          {" "}
-          Propose a <strong>multistage adjustment period</strong>, consisting of
-          1 week for course registration adjustment and 3 weeks for course drop
-          adjustment period{" "}
+          Diversify the IDDDP to include Design and Mathematics & Computing
+          streams
         </RP>
-        <OP
+
+        <WP
           reply={
-            "policy side is done, will be approved and implemented by 3rd sem of freshies"
+            "2 IDDDPs: for Mathematics and for Statistics have been approved. IDDDP in Statistics will be available from the next academic year. IDDDP in Design has not been done."
           }
         >
-          Propose an addition of a Minor program in Quantum Technology as a part
-          of ug cur riculum comprising courses of Electrical, Physics and
-          Computer Science department.
-        </OP>
-        <OP
+          Diversify the IDDDP to include Design and Mathematics & Computing
+          streams
+        </WP>
+
+        <WP
           reply={
-            "research park has approved, funding will be from them and dean R&D, only dates are to be finalised keeping E-Summit and sarcasm in mind"
+            "Dean RnD is not willing to plan another industrial meet after ResCon in such a short time frame. Currently working on a magazine, and planning on doing a year long industrial hackathon. DRCs are involved in this."
           }
         >
-          Organise an Industrial Symposium in collaboration with the IIT Bombay
-          Research Park as an avenue for students to network with and explore
-          Industries{" "}
-        </OP>
-        <OP reply={"ongoing"}>
-          Propose an undergraduate research award URA01 (pre-final year
-          undergraduate re search) and URA02 (BS Project research) for students
-          enrolled in B.S. programmes{" "}
-        </OP>
+          Expand Student Industry Meets (SIM) to more departments to promote
+          core engineering opportunities available for undergraduate students
+          and connect them to industries
+        </WP>
         <RP>
-          Conduct an immersion program with SMP to aid incoming sophomores get
-          acquainted to the campus and the new challenges of offline mode of
-          academics for smoother transition{" "}
+          Propose an English and Communications course under HASMED for students
+          with language barriers by facilitating activity-based learning of
+          verbal and written English
         </RP>
       </Points>
       <SectionHeader>INFORMATION DISSEMINATION AND AWARENESS </SectionHeader>
       <Points>
         <WP
           reply={
-            "will be part of website which will be released by end of tenure"
+            "Core courses and curriculum for 3rd and 4th years haven't been decided, hence did not go ahead with this"
           }
         >
-          Start a bi-monthly blog with updates on policy, proposal updates and
-          council activities
+          Curate a cross-departmental 'Course Ladders and Recommendations
+          Booklet' to help students select and schedule electives in their
+          academic program based on interests
         </WP>
-        <WP reply={"website issues"}>
-          Conduct awareness drives regarding opportunities, courses and
-          resources provided by the 30+ academic and research centres at IITB,
-          to be hosted on External Portal on Insti App
+        <WP
+          reply={
+            "A query booklet was supposed to be released. A session was to be conducted. Wanted to organize a talk by Dean AP. But due to obstructions, couldn't be done. Freshies feel that they should have known more about planning their upcoming years."
+          }
+        >
+          Conduct an academics awareness session in the spring semester for
+          first-year students to help plan out upcoming coursework and branch
+          change
         </WP>
-        <WP reply={"website issues"}>
-          Develop a research portal to serve as a one stop for all research
-          related activities by hosting student research profiles, and
-          application portals for SURP, iSURP and CORE{" "}
-        </WP>
+        <RP>
+          Extend the Sophomore 101 program to brief students about the structure
+          of and motivation behind the revamped undergraduate curriculum
+        </RP>
       </Points>
       <SectionHeader>ACADEMIC AND POLICY REFORMS </SectionHeader>
       <Points>
+        <WP reply={"Did not start work on this"}>
+          Propose a restructuring of the ARP policy to make it more
+          student-friendly and implementable; Explore a department-specific
+          dynamic ARP TA program based on course-specific needs
+        </WP>
         <OP
           reply={
-            "ongoing, approved by SC/ST cell facads and DDAIA, will be proposed in UGPC (end of dec 2022) and then needs to be approved by senate"
+            "Proposed to Dean AP. He said he will push for implementation. Survey was conducted among the DGSecs, so that it can be made uniform across all the departments."
           }
         >
-          Push for creating department wise list of approved NPTEL and CDEEP
-          courses for crediting, to be decided and updated by DUGC every
-          semester.
-        </OP>
-        <OP
-          reply={
-            "ongoing, waiting for approval from each department with DD programmes,might not be relevant since most depts are discontinuing DD programmes"
-          }
-        >
-          Implement the policy for including fourth-year dual degree students in
-          the internship season with the Placement and Training Cell
+          Build on the ongoing efforts to include all departments under the
+          policy to credit NPTEL courses
         </OP>
         <WP
           reply={
-            "working on policies related to grading system, this issue will be taken up after that"
+            "New curriculum for the first and second years have been made. Guidelines have been given to not have pre-requisites for courses. Doesn't make sense now to push FE grade. Grading revamp committee also closed."
           }
         >
-          Push for formalising Course Coordination Committee to ensure
-          uniformity in course content, evaluation scheme and grading policies
-          across different sections for a course
-        </WP>
-        <RP>
-          Follow up on Ease of Access Cell to better campus life for the
-          differently-abled students
-        </RP>
-        <OP reply={"survey has been created, has not been integrated yet"}>
-          Follow up on the integration of Institute Exit Survey as a part of no
-          dues process to act as a feedback mechanism for graduating students.{" "}
-        </OP>
-        <RP>
-          Push for improving FacAd-student interaction by mandating FacAd
-          orientation
-        </RP>
-      </Points>
-      <SectionHeader>Web and Infrastructure</SectionHeader>
-      <Points>
-        <WP reply={"website will be done by end of tenure"}>
-          {" "}
-          Reinstate the UGAC Website to centralise all web content and portals
+          Follow through with the grading revamp to give more flexibility to
+          professors and students: Push for a reduction in the minimum number of
+          students registered to give an AP grade Push to introduce an FE grade
+          to reduce cascading backlogs due to prerequisite courses
         </WP>
         <RP
           reply={
-            "Dean AP said only hard copies of documents will be accepted for official purposes, hence AMS not being used"
+            "Branch Change Index: HASMED etc courses are not counted in CPI for branch change. So there was supposed to be an overall CPI and a CPI considered for branch change. This was done but branch change was removed shortly afterwards."
           }
         >
-          Follow up on expanding the utility of AMS portal by increasing
-          functionality across administrative units by including forms for URA
-          applications, transcripts, bonafide, etc
+          Introduce a branch change index on ASC to increase transparency for
+          first-year UG students
         </RP>
+        <OP
+          reply={
+            " In the next UGPC, this will be proposed again. The delay has been due to the new curriculum being not finalised yet."
+          }
+        >
+          Follow up on the implementation of the proposed Double Majors program
+          for undergraduates
+        </OP>
+        <OP
+          reply={
+            "A survey was conducted across departments to take the opinions of DGSecs, and currently working on how to standardise that"
+          }
+        >
+          Follow up on the proposal to take up industrial projects as
+          in-semester credited RnD projects
+        </OP>
+      </Points>
+      <SectionHeader>Web and Infrastructure</SectionHeader>
+      <Points>
+        <RP>
+          Develop a portal for NOCS allocation for first-year students to
+          systemize and optimise the selection process, ensure uniform timelines
+          and transparency
+        </RP>
+        <RP
+          reply={
+            "A survey was conducted and the responses were shared with the central library, to put up a book stall with books at cheaper rates. The librarian said that they are already planning on organising a book exhibition like this, so why not collaborate. Done pre-midsem in the odd semester."
+          }
+        >
+          Facilitate the setting up of book stalls in coordination with the
+          Central Library during the initial stages of each semester for
+          students to purchase reference books at subsidised rates
+        </RP>
+        <OP
+          reply={
+            "UGAC Web team is working on this. Currently in initial stages; skeleton of the website has been built - working on compilation right now"
+          }
+        >
+          Revamp the UGAC website to serve as a repository for booklets, prep
+          resources, portals and maintain a newsletter to highlight student
+          academic achievements and policy updates
+        </OP>
       </Points>
       <SectionHeader>PROMOTION OF WORK EXPERIENCE AND RESEARCH</SectionHeader>
       <Points>
-        <OP
+        <RP
           reply={
-            "had sent a proposal with GSTA in June-July but got rejected because it needed to be more robust wrt grading and ensuring quality of work,will probably send revised proposal in next UG/PGPC in Jan-end"
+            "Workshops were organised and informative posts were put on the EnPoWER instagram page"
           }
         >
-          Propose crediting of research work in student tech teams as SLPs/RnD
-          Projects
-        </OP>
-        <OP reply={"clubbed with the industrial symposium"}>
-          Collaboration for Industrial and Research activities with IIT Bombay
-          Research Park <br /> Conduct orientation and outreach programme of IIT
-          Bombay Research Park <br /> Provide students with industrial exposure,
-          funding, and mentorship <br /> Organise ReCon (UG student Research
-          Convention) as a platform to showcase research
-        </OP>
-        <RP>
-          Push for curriculum-oriented research exposure (CORE) program to
-          provide sophomore students with more curriculum aligned research
-          opportunities
+          Conduct "Crafting your Research Persona", a series of workshops to
+          help students to build personal profiles, research homepages, and
+          network with professors to avail more opportunities
         </RP>
+        <RP reply={"Started (few sessions have been conducted) "}>
+          Instate a Gradmentorship Program to guide students and assist with the
+          application process to promote dialogue between undergraduate
+          researchers
+        </RP>
+        <OP
+          reply={
+            "In initial stages, plan and skeleton of the portal is ready and approved by Dean RnD. Reviews have been taken by professors. Research profiles are under works."
+          }
+        >
+          Complete building the research portal to include information
+          dissemination on external research opportunities, and form a community
+        </OP>
       </Points>
       <SectionHeader>CAREER CELL</SectionHeader>
       <Points>
-        <RP>
-          Adopt <strong> Capstone Course Methodology</strong> for Learners’
-          Space providing the students with the opportunity to use the knowledge
-          they have gained through the course
+        <OP reply={"Currently in intial stages"}>
+          Revamp the Career Info Booklet to encourage informed career decisions
+          by including personalised experiences of alumni, overviews of
+          professional life, and career trajectories{" "}
+        </OP>
+
+        <RP
+          reply={
+            "WhatsApp groups were created for IIM/MBA preparation as well as for Grad and University Internships in order to facilitate communication."
+          }
+        >
+          Establish "Career Connect", a community to empower interaction among
+          students, seniors, and alumni based on career interests and
+          aspirations
         </RP>
-        <OP
+        <RP
           reply={
-            "mentoship programme didnt fit timeline so released GRAD booklet instead with details of people who got into different unis"
+            "An instagram series (Exploring Uncharted Paths) was initiated. Each post informs about different career options like music, filming etc."
           }
         >
-          Formalise a Gradmentorship Program to guide prospective grad school
-          applicants through the application process and conduct seminars for
-          information dissemination{" "}
-        </OP>
-        <OP
-          reply={
-            "planning in feb as a consult+policy thing, progs and dgsec of CPS are interested"
-          }
-        >
-          Organize a <strong> Public Policy</strong> Conclave in collaboration
-          with think-tanks, to provide hands on exposure to the students
-          interested in exploring the domain{" "}
-        </OP>
-        <OP
-          reply={
-            "compiled but will be released towards end of tenure so as to help in next intern season"
-          }
-        >
-          Introduce <strong> Internship Bluebook</strong> comprising company and
-          profile details along with relevant preparation resources and
-          experience
-        </OP>
+          Initiate "Uncharted Horizons" - a series of activities to propagate
+          unorthodox careers that might be better suited to the personal
+          interests of students
+        </RP>
       </Points>
 
       <SectionHeader>STUDENT SUPPORT SERVICES</SectionHeader>
       <Points>
-        <WP reply={"website issues"}>
-          Introduce an <strong> academic blog</strong> to streamline retagging,
-          registration and scholarship queries
-        </WP>
         <WP
           reply={
-            "resobin cant hold recordings, so textual resources have been added there so far, proper TSC central will be made with website"
+            "Was planning to conduct a session for students to educate them on what the best scholarship for them would be. But the first meeting of the scholarship committee in the tenure decided to build an institute portal which would automatically suggest the best scholarship to the student. Hence, did not go ahead with this."
           }
         >
-          {" "}
-          Introduce <strong> TSC Central</strong> on the UGAC Website to host
-          TSC recordings and other resources{" "}
+          Coordinate sessions on scholarships with the academic office to cover
+          the different types, eligibility, FAQs, and evaluate the best possible
+          scholarship on a case-by-case basis
         </WP>
-        <WP>
-          Introduce a portal to centralise resources and information about
-          non-institute scholarships and professional opportunities to aid
-          students in applying for the same
-        </WP>
+        <RP
+          reply={
+            "Not on ResoBin, but was implemented in InstiApp - Academic Discussion Forum was launched recently. It helps to streamline topics of discussion."
+          }
+        >
+          Expand the utility of ResoBin to increase student engagement by
+          including a discussion forum for students to initiate conversations
+          about academic matters
+        </RP>
+
         <OP
           reply={
-            "coordinating with ARP coordinators of each dept and Prof Belur of SC/ST cell"
+            "Course mapping for the first year has been completed. 3rd and 4th years' curriculum hasn't been finalized."
           }
         >
-          Push for hiring of <strong> ARP TAs </strong> across all departments
-          in coordination with D-AMP teams{" "}
-        </OP>
-        <OP
-          reply={
-            "testing portal with profs also almost complete, selections of next set of TAs should hopefully be through this but a little prof dependent as some prefer google forms"
-          }
-        >
-          {" "}
-          Reinstate a centralised TA portal and implement TA feedback for
-          improved accountability.
+          Ensure course mapping between the new and old curriculum to smoothen
+          backlog registration{" "}
         </OP>
       </Points>
 
       <SectionHeader>CLUBS</SectionHeader>
       <Points>
-        <WP
-          reply={
-            "scheduled an event with HUL to launch in october but they cancelled, has been on hold since then"
-          }
-        >
-          Introduce a <strong> Supply Chain & Operations</strong> wing under
-          Analytics club in coordination with EnPoWER to foster discussions and
-          community building for interested students
-        </WP>
-        <RP>
-          Restructure the <strong> Consult Core Group</strong> and start taking
-          pro-bono cases from startups
-        </RP>
-        <WP reply={"awaiting details"}>
-          Introduce a comprehensive course on <strong> Personal Finance</strong>{" "}
-          under the Finance Club
-        </WP>
         <OP
           reply={
-            "did not get a lot of data about engagement with clubs so pivoted to covid data to see how it affected grades, attendance etc, (got anon data from asc), will publish report by end of tenure and some details in midterm report"
+            "Conducted 2 sessions on venture capital, and a session on investment banking"
           }
         >
-          Repurpose the DAV Team to quantify student engagement with institute
-          clubs and bodies
+          Organise hands-on sessions on project walkthroughs across different
+          careers in analytics, consulting, and finance to deliver practical
+          experiences
         </OP>
+        <WP
+          reply={
+            "Finance Club is working to set up a quantitative finance division."
+          }
+        >
+          Facilitate industrial projects, internships, and educational programs
+          for undergraduate students in Finance and Analytics in collaboration
+          with innovation centres in IIT Bombay
+        </WP>
+        <RP
+          reply={
+            "DAV was involved in conducting surveys like Course Feedback. The team recently launched a Course Recommendation Portal."
+          }
+        >
+          Extend the DAV team's duties to assist student bodies and institute
+          functionaries in designing structured surveys, analysing collected
+          data, and making data-driven recommendations
+        </RP>
+        <WP
+          reply={"There were difficulties in bringing the companies for this."}
+        >
+          Establish a business development wing under the Consult Club to
+          inculcate a foundation in management and business and promote roles
+          like strategy, operations, etc.
+        </WP>
+        <RP
+          reply={
+            "Investment Team has made two reports with Aditya Birla Sun Life and Roots Ventures"
+          }
+        >
+          Explore the possibility for the Investment Team to assist external
+          funds in investment research
+        </RP>
       </Points>
 
       <SectionHeader>EXTERNAL RELATIONS </SectionHeader>
       <Points>
-        <OP
+        <WP
           reply={
-            <>
-              will be implemented this time, wasn't done last time as ISIR was
-              appointed very late
-            </>
+            "Since the new curriculum was under works, course mappings were not done"
           }
         >
-          Introduce <strong> Swagat</strong>, an Orientation programme for
-          inbound semester exchange students{" "}
-        </OP>
-        <RP>
-          {" "}
-          Organise sessions on scholarships and financing for students applying
-          for higher studies{" "}
+          Launch a Semester Exchange Guide to centralise information about
+          applications, past experiences, course mappings, scholarships, and
+          helpful tips
+        </WP>
+        <RP
+          reply={
+            "3 sessions have been conducted up till now: Princeton, Vanderbilt, Tshinghua universities"
+          }
+        >
+          Conduct Ask Me Anything (AMA) sessions with admissions officers from
+          target international universities for graduate applications
         </RP>
       </Points>
+      <SectionHeader>Social Outreach</SectionHeader>
+      <Points>
+        <RP
+          reply={
+            "On suggestion of Dean AP, we approached the Kendriya Vidyalaya principal who agreed to allow 10th std students to be scribes. He gave a list of students to the PwD cell. A professor from Math department suggested that the high school students are not aware of the notations used in undergraduate maths. We can allow the TAs to be the scribes, and may be another TA can inviglate the scribe TA. Thus, the point is marked completed even though it was not executed finally."
+          }
+        >
+          Streamline the process of requesting assistance in the form of a
+          scribe during examinations
+        </RP>
+        <WP reply={"Planned for later"}>
+          Engage UGAC divisions in community service for IIT Bombay staff and
+          students wherever possible such as financial literacy and career
+          counselling
+        </WP>
+      </Points>
+      <SectionHeader>Extras</SectionHeader>
+      <Points>
+        <RP>
+          After Branch Change policy was removed, an information session was
+          conducted before the JoSAA Counselling Sessions begun.
+        </RP>
+        <RP>
+          Extension students can't get a minor or honors degree. Proposal was
+          made to allow extension students to get honors and minors. The Dean AP
+          asked to repropose it with only include minors. Thus, the new proposal
+          is under works.
+        </RP>
+      </Points>
+
+      <SurveyDescript />
+      <GsSurveyImages
+        titles={[
+          "1. In what capacity were you associated with the Undergraduate Academic Council (UGAC)?",
+          "2. Are you satisfied with the way UGAC functioned this tenure?",
+          "3. Are you satisfied with the performance of the GSAA-UG (General Secretary of Academic Affairs - Undergraduate) this year?",
+          "4.	Rate your experiences with the respective bodies under UGAC.",
+          "5.	Rate your experiences with the respective bodies under UGAC. [EnPoWER]",
+          "6.	Rate your experiences with the respective bodies under UGAC. [Career Cell]",
+          "7.	Rate your experiences with the respective bodies under UGAC. [Student Support Services]",
+          "8.	Rate your experiences with the respective bodies under UGAC. [Consult Club]",
+          "9.	Rate your experiences with the respective bodies under UGAC. [Finance Club]",
+          "10.	Rate your experiences with the respective bodies under UGAC. [Analytics Club]",
+          "11.	Are you satisfied with the events and workshops organized by UGAC? [Quality]",
+          "12.	Are you satisfied with the events and workshops organized by UGAC? [Performance]",
+          "13.	Did you find the booklets and online resources provided by UGAC helpful?",
+          "14.	How was your experience participating in the competitions organised by the clubs in UGAC?",
+          "15.	Are you satisfied with the work of the Department Research Coordinator of your department?",
+        ]}
+        plots={Array.from(
+          { length: 15 },
+          (_, index) => `/GS_Satisfaction_survey/GSAAUG/${index + 1}_ug.png`
+        )}
+        responses={[
+          138, 123, 122, 106, 108, 104, 105, 104, 107, 107, 108, 107, 113, 93,
+          84,
+        ]}
+      />
+
       <Footer></Footer>
     </div>
   );
