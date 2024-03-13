@@ -18,7 +18,7 @@ function SportsPage() {
       <ImageContainer
         name={"Utkarsh Godwal"}
         manlink={
-          "https://drive.google.com/file/d/1kAkeXitC-clhFw5AIYj8I7eQwsuW7HCo/view?usp=sharing"
+          "https://drive.google.com/file/d/1MSbKxTSYkXoedryA9qCXuARRLAI-020a/view"
         }
         imgsrc={"/gssa.jpeg"}
         por={"General Secretary, Sports Affairs "}
@@ -27,6 +27,7 @@ function SportsPage() {
         notstarted={15.8}
         unclear={0}
       />
+      <Points>Note: The original manifesto of the ex-GSSA [Anshul Panwar] has been followed for the making of this GS meter</Points>
       <Indicator />
 
       <Title>INITIATIVES </Title>
